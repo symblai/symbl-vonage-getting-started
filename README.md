@@ -6,20 +6,22 @@ Advanced users of Symbl and Vonage who have other interesting starting points fo
 
 ## Prerequisite
 
-- You must have a Symbl Platform account. [Sign Up Here](https://platform.symbl.ai/#/signup)
-- You must have a Vonage TokBox account. [Sign Up Here](https://www.tokbox.com/account/user/signup)
+- [Node.js is installed](https://docs.symbl.ai/docs/set-up-your-test-environment#nodejs)
+- You must have a Symbl Platform account. [Sign Up Here][symbl_signup]
+- You must have a Vonage TokBox account. [Sign Up Here][vonage_signup]
 
 ## List of Starting Points
 
-TODO
+### [standalone-device](https://github.com/symblai/symbl-vonage-getting-started/blob/main/standalone-device)
 
-## Quick deploy to Heroku
+Use the [standalone-device](https://github.com/symblai/symbl-vonage-getting-started/blob/main/standalone-device) project as a starting point when you want to do everything on a single self-contained laptop. You can use this project simulate multiple users, but using a single device and single video call.
 
-Heroku is a PaaS (Platform as a Service) that can be used to deploy simple and small applications for free. To easily deploy this repository to Heroku, sign up for a Heroku account and click this button:
+### [multiple-devices](https://github.com/symblai/symbl-vonage-getting-started/blob/main/multiple-devices)
 
-TODO
-
-Heroku will prompt you to add the Symbl `APP_ID` and `APP_SECRET` and Vonage's `API_KEY` and `API_SECRET`, which you can obtain on the [Symbl Platform](https://platform.symbl.ai/#/home) and the [TokBox Dashboard](https://dashboard.tokbox.com/keys).
+Use the [multiple-devices](https://github.com/symblai/symbl-vonage-getting-started/blob/main/multiple-devices) project as a starting point when you want to do either:
+ 
+- Run a video conference session **where everyone is on the same network** using multiple devices/laptops logging into a single video call
+- Run a video conference session **where this app is deployed to a publically accessible cloud** and users will be using multiple devices/laptops logging into a single video call
 
 ## Community
 
@@ -34,3 +36,5 @@ This library is released under the [MIT License][license]
 [issues]: https://github.com/symblai/getting-started-samples/issues
 [pulls]: https://github.com/symblai/getting-started-samples/pulls
 [license]: LICENSE
+[symbl_signup]: https://platform.symbl.ai/signup?utm_source=symbl&utm_medium=blog&utm_campaign=devrel&_ga=2.226597914.683175584.1662998385-1953371422.1659457591&_gl=1*mm3foy*_ga*MTk1MzM3MTQyMi4xNjU5NDU3NTkx*_ga_FN4MP7CES4*MTY2MzEwNDQyNi44Mi4xLjE2NjMxMDQ0MzcuMC4wLjA.
+[vonage_signup]: https://www.tokbox.com/account/user/signup
