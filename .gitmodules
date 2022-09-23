@@ -1,0 +1,12 @@
+[submodule "standalone-device/opentok-node"]
+	path = standalone-device/opentok-node
+	url = git@github.com:dvonthenen/opentok-node.git
+	branch = symbl-vonage-getting-started
+[submodule "multiple-devices/learning-opentok-node"]
+	path = multiple-devices/learning-opentok-node
+	url = git@github.com:dvonthenen/learning-opentok-node.git
+	branch = symbl-vonage-getting-started
+[submodule "multiple-devices/opentok-web-samples"]
+	path = multiple-devices/opentok-web-samples
+	url = git@github.com:dvonthenen/opentok-web-samples.git
+	branch = symbl-vonage-getting-started
